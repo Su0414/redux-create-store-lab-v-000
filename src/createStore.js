@@ -2,7 +2,7 @@ export default function createStore(reducer) {
   // add your code here
   let state;
   function getState(){
-    return this.state;
+    return state;
   };
 
 
@@ -11,7 +11,7 @@ export default function createStore(reducer) {
     render();
   };
 
-  return { 
+  return {
     dispatch
     getState
    };
