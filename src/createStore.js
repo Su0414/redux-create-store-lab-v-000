@@ -22,3 +22,5 @@ function render() {
   const container = document.getElementById('container');
 
 }
+dispatch({ type: '@@INIT' })
+
