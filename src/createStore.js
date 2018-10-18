@@ -4,13 +4,13 @@ export default function createStore(reducer) {
   function getState(){
     return this.state;
   };
-  
- 
+
+
   function dispatch(action) {
     state = changeCount(state, action);
     render();
   };
- 
+
   return { dispatch };
 }
 
