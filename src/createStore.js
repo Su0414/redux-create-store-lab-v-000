@@ -7,7 +7,7 @@ export default function createStore(reducer) {
 
 
   function dispatch(action) {
-    state = countReducer(state, action);
+    // state = countReducer(state, action);
     render();
   };
 
